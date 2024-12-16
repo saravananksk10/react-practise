@@ -1,26 +1,5 @@
-// var a = 10;
-
-// {
-//   var a = 1;
-//   let b = 2;
-//   const c = 3;
-
-//   console.log(a);
-// }
-// var a = 3;
-
-// console.log(a);
-
-// const heading = React.createElement(
-//   "h1",
-//   { id: "heading" },
-//   "Hello World from React"
-// );
-
-// console.log(heading);
-
-// const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(heading);
+import React from "react";
+import ReactDOM from "react-dom/client";
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child" }, [
